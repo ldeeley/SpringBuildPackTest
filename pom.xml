@@ -36,6 +36,9 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <imageName>${project.artifactId}</imageName>
+                    <environmentVariables>
+                        <BP_JVM_VERSION>11</BP_JVM_VERSION>
+                    </environmentVariables>
                 </configuration>
             </plugin>
         </plugins>
